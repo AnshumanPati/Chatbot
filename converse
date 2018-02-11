@@ -1,0 +1,30 @@
+FORMAL: 		User: <get started>
+
+				Bot: Hi <Username>!I can register complaints for you. Do you want to choose <Hostel Complaints>, <Campus Complaints> or <Food & Mess Complaints>? 	
+																													(CAROUSALS)
+
+				User: <clicks 'Food & Mess Complaints' button>
+
+				Bot: It seems you are having problems in the <Food & Mess> problems. What can I help you with?
+					<Unhygienic food> <Unhygienic water> <Food stalls>  											(QUICK_REPLY)
+
+				User: <clicks>
+
+				Bot: Okay <Username>! Your complaint will be registered and directed to Student's Mess Council. I regret the inconvenience caused!
+
+				User: "thanks", "thank you", "thank", "thanking you", "awesome", "good", "bye", "great", "nice", "well done", "wow", "okay", "cool", "cheers"
+
+				Bot: Can I help you with anything else? <YES> <NO>
+
+				If <YES> GOTO <CAROUSALS>
+				If <NO>  GOTO
+							Bot: Thank you! Have a nice day :)
+
+	IF BOT UNABLE TO UNDERSTAND:
+				Bot: I am sorry! I didn't get you. Can you please clarify?
+
+				<use counter features for number of illogical replies>
+
+
+
+

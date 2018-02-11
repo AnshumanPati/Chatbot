@@ -1,0 +1,45 @@
+FORMAL: 		User: <get started>
+	
+	/* GREETINGS:	
+				User: "hi", "hello", "hey", "hii", "yo", "ola","namastey", "howdy", "morning", "hiya", "hi there", "sup", "whats up", "what up", "hey there",					  	  "holla", "wassap", "well hello", "how are you", "ciao", "greetings", "greets"
+
+				Bot: Hello <Username>! How can I help you?
+
+				User: Good morning / Good afternoon/ Good evening (correct time of the day)
+				Bot: Good morning / Good afternoon/ Good evening <Username>! How can I help you?
+
+				User: Good morning (wrong time of the day)
+				Bot: Hi <Username>! I am sorry but I think it is too late to be morning! How can I help you?
+
+				User: Good evening (wrong time of the day)
+				Bot:  Hi <Username>! I am sorry but I think it is too early to be evening! How can I halp you?
+
+				User: Good afternoon (wrong time of the day)
+				Bot: Hi <Username>! Afternoon is long past I guess :P ! How can I help you?
+
+	USER ASKS:	
+				User: "what can u do?","what can you do?","what do you know?","what do u know?","how can you help me?","what do you do?","how can u help me?","what  do u do?","what can u do","what can you do","what do you know","what do u know","how can you help me","what do you do","what do u do","how can u help me","what all can u do","what all can you do","what all do you know?","what all do u know?","what all can u do?","what all can you do?","what all do you know","what all do u know","what can u do ?","what can you do ?","what do you know ?","what do u know ?","how can you help me ?","what do you do ?","how can u help me ?","what do u do ?" */
+
+				Bot: Hi <Username>!I can register complaints for you. Do you want to choose <Hostel Complaints>, <Campus Complaints> or <Food & Mess Complaints>?
+
+				User: <clicks 'Food & Mess Complaints' button>
+
+				Bot: It seems you are having problems in the <Food & Mess> problems. What can I help you with?
+					<Unhygienic food> <Unhygienic water> <Food stalls>
+
+				User: <clicks>
+
+				Bot: Okay <Username>! Your complaint will be registered and directed to Student's Mess Council. I regret the inconvenience caused!
+
+				User: "thanks", "thank you", "thank", "thanking you", "awesome", "good", "bye", "great", "nice", "well done", "wow", "okay", "cool", "cheers"
+
+				Bot: You're welcome! Have a nice day :)
+
+	IF BOT UNABLE TO UNDERSTAND:
+				Bot: I am sorry! I didn't get you. Can you please clarify?
+
+				<use counter features for number of illogical replies>
+
+
+
+
